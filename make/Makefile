@@ -89,4 +89,5 @@ test : cal_unittest
 	./cal_unittest
 
 gcov : cal_unittest
-	...
+	gcov cal.cpp
+	cat cal.cpp.gcov
